@@ -1,29 +1,30 @@
-import Biblioteca from "../component/biblioteca/biblioteca"
-import Inicio from "../component/inicio/inicio"
-import "./app.css"
+import Biblioteca from "../component/biblioteca/biblioteca";
+import Inicio from "../component/inicio/inicio";
+
+import "./app.css";
 
 const App = () => {
   return (
     <>
-    <div className="App">
-      <div className="sidebar">
+      <div className="App">
+        <div className="sidebar">
+          <Inicio />
 
-<Inicio />
+          <Biblioteca />
 
+        </div>
+        <div className="content">
+          
+        </div>
+        <div className="mundial">
 
-
-<Biblioteca />
-
-
-
+        </div>
       </div>
-      <div className="content">
-<p>Conteudo</p>
-      </div>
-    </div>
-     <footer><p>Rodapé</p></footer>
+      <footer>
+        <p>Rodapé</p>
+      </footer>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .App{
     display: flex;
     margin: auto;
@@ -14,7 +16,7 @@
 
 
 .content{
-    background: cornflowerblue;
+    background: #000000;
     flex: 0 100%;
 }
 
@@ -25,7 +27,7 @@ footer{
 
 @media(min-width: 600px){
     .sidebar{
-        flex: 0 0 200px;
+        flex: 0 0 300px;
     }
 
     .content{

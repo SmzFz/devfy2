@@ -5,6 +5,80 @@
     height: 515px;
     margin-top: 1em;
     margin-left: 4px;
-    width: 190px;
+    width: 290px;
 
+}
+
+.library{
+    padding-left: 1.2em;
+    padding-top: 8px;
+    display: flex;
+    gap: 15px;
+}
+
+.library p {
+    color: #A7A7A7;
+    padding-right: 0.8em;
+    font-size: 15px;
+    padding-top: 7px;
+    font-family: "Figtree", sans-serif;
+}
+
+.info1{
+    background: #242424;
+    color: white;
+    border-radius: 12px;
+    height: 130px;
+    margin-left: 8px;
+    width: 275px;
+    margin-top: 1em;
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px;
+    
+}
+
+.info1 p{
+    font-size: 12px;
+}
+
+.info1 h2{
+    font-size: 15px;
+}
+
+.info2{
+    background: #242424;
+    color: white;
+    border-radius: 12px;
+    height: 130px;
+    margin-left: 8px;
+    width: 275px;
+    margin-top: 1em;
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+.info2 p    {
+    font-size: 12px;
+}
+
+.info2 h2{
+    font-size: 15px;
+}
+
+
+button{
+    background: #fff;
+    width: 100px;
+    font-family: "Figtree", sans-serif;
+    color: #121212;
+    outline: none;
+    text-decoration: none;
+    border-radius: 12px;
+    
 }
