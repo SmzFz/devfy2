@@ -1,4 +1,5 @@
 import Biblioteca from "../component/biblioteca/biblioteca";
+import Headerzin from "../component/headerzin/headerzin";
 import Inicio from "../component/inicio/inicio";
 
 import "./app.css";
@@ -14,7 +15,7 @@ const App = () => {
 
         </div>
         <div className="content">
-          
+          <Headerzin />
         </div>
         <div className="mundial">
 

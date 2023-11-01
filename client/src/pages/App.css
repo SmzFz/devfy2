@@ -8,7 +8,7 @@
 
 .sidebar{
     flex: 0 100%;
-    height: 700px;
+    height: 100%;
     background: #000000;
 
 }
@@ -22,7 +22,10 @@
 
 footer{
     background: gray;
-    height: 83px;
+    height: 73px;
+    position: fixed;
+    bottom: 0;
+    width: ;
 }
 
 @media(min-width: 600px){
