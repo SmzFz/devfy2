@@ -2,7 +2,7 @@ import Biblioteca from "../component/biblioteca/biblioteca";
 import Headerzin from "../component/headerzin/headerzin";
 import Inicio from "../component/inicio/inicio";
 
-import "./app.css";
+import "./App.css"
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
         </div>
       </div>
       <footer>
-        <p>Rodapé</p>
+
       </footer>
     </>
   );
