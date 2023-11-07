@@ -7,10 +7,15 @@ const Headerzin = () => {
     <div className={styles.container}>
     <div className={styles.header}>
     <img src={sl} alt="" />
-    <button>Criar playslist</button>
     <img src={sr} alt="" />
+
     </div>
-    <div className={styles.header2}>
+    <div className={styles.login}> 
+<p>Sign up</p>
+<button>Login</button>
+
+
+
     </div>
 
     </div>
