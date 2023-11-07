@@ -1,6 +1,7 @@
 import Biblioteca from "../component/biblioteca/biblioteca";
 import Headerzin from "../component/headerzin/headerzin";
 import Inicio from "../component/inicio/inicio";
+import Infof from "../component/infof/infof";
 
 import "./App.css"
 
@@ -22,7 +23,7 @@ const App = () => {
         </div>
       </div>
       <footer>
-
+<Infof />
       </footer>
     </>
   );

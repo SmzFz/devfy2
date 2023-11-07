@@ -6,7 +6,7 @@
     margin-top: 1em;
     margin-left: 4px;
     width: 290px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
 }
 
@@ -80,9 +80,11 @@ button{
     height: 25px;
     font-family: "Figtree", sans-serif;
     color: #121212;
-    outline: none;
     text-decoration: none;
     border-radius: 12px;
+    outline: none;
+    border: none;
+    font-weight : bold ;
     
     
 }
