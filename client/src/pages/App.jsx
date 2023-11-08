@@ -2,10 +2,10 @@ import Biblioteca from "../component/biblioteca/biblioteca";
 import Headerzin from "../component/headerzin/headerzin";
 import Inicio from "../component/inicio/inicio";
 import Infof from "../component/infof/infof";
-import midia from "../component/midia/midia"
+import Midia from "../component/midia/midia";
+
 
 import "./App.css"
-import Midia from "../component/midia/midia";
 
 const App = () => {
   return (

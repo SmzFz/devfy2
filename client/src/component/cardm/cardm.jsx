@@ -1,9 +1,9 @@
-import React from 'react'
+import styles from './cardm.module.css'
 
-const cardm = () => {
+const Cardm = () => {
   return (
-    <div>cardm</div>
+    <div> </div>
   )
 }
 
-export default cardm
+export default Cardm

@@ -25,3 +25,13 @@
     font-family: "Figtree", sans-serif;
     padding: 15px 10px 10px 15px;
 }
+
+.superior{
+    height: 50%;
+    width: 100%;
+}
+
+.inferior{
+    height: 50%;
+    width: 100%;
+}

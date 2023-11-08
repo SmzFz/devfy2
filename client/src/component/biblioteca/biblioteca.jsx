@@ -10,6 +10,8 @@ const Biblioteca = () => {
 <p>Sua Biblioteca</p>
 <img src={mais} alt="" />
    </div>
+
+
    <div className={styles.info1}>
     <h2>Crie sua primeira playlist</h2>
     <p>É fácil, vamos te ajudar</p>
@@ -26,7 +28,8 @@ const Biblioteca = () => {
         <button>Explore podcast</button>
 
 </div>
-    </div>
+   </div>
+
   )
 }
 

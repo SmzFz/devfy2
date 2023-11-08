@@ -30,7 +30,16 @@
 
 .login p {
     color: #A7A7A7;
-}
+    transition: color 0.2s;
+    transition: 0.2s;
+    }
+
+
+.login p:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.04);
+    
+  }
 
 .login button{
     width: 100px;
