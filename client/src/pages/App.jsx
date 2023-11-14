@@ -3,9 +3,8 @@ import Headerzin from "../component/headerzin/headerzin";
 import Inicio from "../component/inicio/inicio";
 import Infof from "../component/infof/infof";
 import Midia from "../component/midia/midia";
-
-
 import "./App.css"
+import { Link } from "react-router-dom";
 
 const App = () => {
   return (
@@ -18,13 +17,18 @@ const App = () => {
 
         </div>
         <div className="content">
+<Link to="/">App</Link>
+<Link to="/register"></Link>
             <Headerzin />
+
             <Midia />
+
+</div>
         </div>
         <div className="mundial">
 
         </div>
-      </div>
+  
       <footer>
 <Infof />
       </footer>

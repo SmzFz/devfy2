@@ -20,6 +20,26 @@
     flex: 0 100%;
 }
 
+.Router {
+
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #E0E18A;
+    margin: 0em;
+    height: 2.84em;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .Routers{
+    display: flex;
+    flex-direction: row;
+    width: 63.8375em;
+    justify-content: space-between;
+    text-decoration: none;
+    
+  }
+
 footer{
     height: 45px;
     position: fixed;

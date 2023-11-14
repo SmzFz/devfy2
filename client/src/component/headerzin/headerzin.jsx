@@ -1,8 +1,11 @@
 import styles from "./headerzin.module.css"
 import sr from "../../assets/product/seta-right.svg"
 import sl from "../../assets/product/seta-left.svg"
+import { useNavigate } from "react-router-dom"
+
 
 const Headerzin = () => {
+  const navigate = useNavigate();
   return (
     <div className={styles.container}>
     <div className={styles.header}>
@@ -12,7 +15,7 @@ const Headerzin = () => {
     </div>
     <div className={styles.login}> 
 <p>Sign up</p>
-<button>Login</button>
+<button onClick={() => navigate("/register")}>Login</button>
 
 
 
