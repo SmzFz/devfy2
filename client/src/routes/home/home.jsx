@@ -11,23 +11,23 @@ import styles from "./home.module.css"
 const Home = () => {
   return (
     <>
-      <div className="App">
-        <div className="sidebar">
+      <div className={styles.Home}>
+        <div className={styles.sidebar}>
           <Inicio />
 
           <Biblioteca />
 
         </div>
-        <div className="content">
+        <div className={styles.content}>
 
             <Headerzin />
 
             <Midia />
-
 </div>
-        </div>
-        <div className="mundial">
 
+        <div className={styles.mundial}>
+
+        </div>
         </div>
   
       <footer>

@@ -14,13 +14,13 @@ const Headerzin = () => {
     <img src={sl} alt="" />
     <img src={sr} alt="" />
 
-    </div>
     <div className={styles.login}> 
 <p>Sign up</p>
 <button onClick={() => navigate("/register")}>Login</button>
 
 
 
+    </div>
     </div>
 
     </div>
