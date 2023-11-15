@@ -1,9 +1,15 @@
-import React from 'react'
+import styles from "./register.module.css";
+
+
+//importando rotas do nav
 
 const Register = () => {
   return (
-    <h1 className={styles.container}>Register</h1>
-  )
-}
+    <div className={styles.container}>
 
-export default Register
+
+    </div>
+  );
+};
+
+export default Register;

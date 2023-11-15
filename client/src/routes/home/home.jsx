@@ -1,14 +1,14 @@
-import Biblioteca from "../component/biblioteca/biblioteca";
-import Headerzin from "../component/headerzin/headerzin";
-import Inicio from "../component/inicio/inicio";
-import Infof from "../component/infof/infof";
-import Midia from "../component/midia/midia";
-import "./App.css"
+import Biblioteca from "../../component/biblioteca/biblioteca";
+import Headerzin from "../../component/headerzin/headerzin";
+import Inicio from "../../component/inicio/inicio";
+import Infof from "../../component/infof/infof";
+import Midia from "../../component/midia/midia";
+import styles from "./home.module.css"
 
 
 
 
-const App = () => {
+const Home = () => {
   return (
     <>
       <div className="App">
@@ -37,4 +37,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;

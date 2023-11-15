@@ -4,6 +4,8 @@ import sl from "../../assets/product/seta-left.svg"
 import { useNavigate } from "react-router-dom"
 
 
+
+
 const Headerzin = () => {
   const navigate = useNavigate();
   return (
