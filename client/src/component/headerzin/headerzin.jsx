@@ -1,7 +1,8 @@
 import styles from "./headerzin.module.css"
 import sr from "../../assets/product/seta-right.svg"
 import sl from "../../assets/product/seta-left.svg"
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+
 
 
 
